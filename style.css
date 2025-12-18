@@ -1,0 +1,94 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+}
+
+.section-1 {
+    display: flex;
+    background-color: black;
+    max-width: 1280px;
+    margin: 30px 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    margin: 0 auto;
+    padding: 150px;
+    gap: 100px;
+}
+
+.section-1-div-2 {
+    width: 50%;
+}
+
+.section-1 div p {
+    color: white;
+}
+
+.section-1 div h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.section-1-div-2 {
+    width: 50%;
+}
+
+.section-1-div-1 button {
+    padding: 15px;
+    color: white;
+    background: red;
+    border-radius: 10px;
+}
+
+.section-2 {
+    display: flex;
+    margin-top: 200px;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.section2-div-1 {
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    margin-top: 100px;
+
+    align-items:center;
+    border-radius: 15px;
+    height: 25%;
+    padding: 50px;
+    
+}
+
+.section2-div-1 button {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.section2-div-1 button:last-child {
+    background-color: red;
+    color: white;
+}
+
+.section-2-div-2 {
+    width: 75%;
+    display: grid;grid-template-columns: repeat(3,1fr);gap: 20px;margin-top: 100px;
+}
+.card img {
+    width: 100%;;
+}
+
+i{margin-left: 10px;}
+
+.card button {padding: 10px 20px ;border:1px solid gray;}
+.card p{font-weight: 700;}
+
+
+footer{height: 500px;background-color: black;}
+footer h1 {display: flex;justify-content: center;align-items: center;border-bottom: 1px solid gray;padding-top: 50px;font-size: 100px;color: white;}
+ul{display: flex;text-decoration: none;list-style: none;justify-content: center;gap: 50px;color: white;}
