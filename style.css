@@ -142,7 +142,7 @@ ul {
 @media screen and (max-width: 576px) {
     .section-1 {
         flex-direction: column;
-        margin: 50px;
+        margin: 20px;
         padding: 20px;
     }
 
@@ -150,14 +150,17 @@ ul {
     .section-1-div-2 img {
         width: 100%;
     }
+    .section2-div-1{margin-top: 0px;}
 
     .section-2-div-2 {
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 0px;
     }
 
     .section-2 {
         flex-direction: column;
         align-items: center;
+        margin: 0px;padding: 0;
     }
 
     footer ul {
@@ -169,6 +172,11 @@ ul {
         height: auto;
         padding-bottom: 20px;
     }
+    .section-1 div h1 {
+    font-size: 2rem;
+    color: white;
+}
+
 }
 
 
@@ -176,7 +184,7 @@ ul {
 @media screen and (min-width: 576px) and (max-width:992px) {
     .section-1 {
         flex-direction: column;
-        margin: 50px;
+        margin: 20px;
         padding: 20px;
     }
 
@@ -184,9 +192,10 @@ ul {
     .section-1-div-2 img {
         width: 100%;
     }
-
+    .section2-div-1{margin-top: 0px;}
     .section-2-div-2 {
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 0px;
     }
 
     .section-2 {
@@ -203,6 +212,10 @@ ul {
         height: auto;
         padding-bottom: 20px;
     }
+        .section-1 div h1 {
+    font-size: 2rem;
+    color: white;
+}
 }
 
 
